@@ -8,7 +8,7 @@ const Service = ({items}) => {
     }
     const Icon = items.icon;
     return (
-        <div className=' px-4 py-4 border border-1 rounded-2 ' style={{borderColor: "#CED4DA", width: 360}}>
+        <div className=' px-4 py-4 border border-1 rounded-2 icon-link' style={{borderColor: "#CED4DA", width: 360}}>
             <div className='d-flex justify-content-center align-items-center column-gap-2 justify-content-md-start'>
                 <Icon style={{ fontSize: 32, color: `${items.color}`}} />
                 <p className='m-0 fw-bold'>{items.service}</p>
